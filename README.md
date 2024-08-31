@@ -1,5 +1,5 @@
 # go-crud-api
-
+```
 brew install postgresql
 brew services start postgresql
 psql postgres
@@ -29,3 +29,4 @@ curl -X GET http://localhost:8000/books/1
 curl -X POST http://localhost:8000/books -H "Content-Type: application/json" -d '{"id":"3", "title":"Book Three", "author":"Author Three", "year":"2025"}'
 curl -X PUT http://localhost:8000/books/3 -H "Content-Type: application/json" -d '{"title":"Updated Book Three", "author":"Updated Author Three", "year":"2026"}'
 curl -X DELETE http://localhost:8000/books/3
+```
